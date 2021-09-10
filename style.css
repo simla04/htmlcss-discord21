@@ -47,14 +47,6 @@ h2{
     padding: 38px;
 }
 .centered{
-    /* text-align: center;
-    width: 70%;
-    margin:3rem auto;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    } */
     text-align: center;
     padding: 87px;
 }
@@ -75,22 +67,10 @@ font-weight: 600;
     }
 
     .sezione2{
-        /* background-image: url(./img/jumbo.png);
-    background-size: cover;
-    height: 27rem;
-    color: whitesmoke;
-    position: static;
-    } */
-    height: 27rem;
+       height: 27rem;
     width: 70%;
     display: inline-block;
-    /* text-align: center; */
-    
-    /* width: 70%; */
-    /* margin: 10px auto;
-    text-align: center; 
-    diplay:block */
-}
+    }
 .img_rana{
      width:50% ;
     float:left;
@@ -120,3 +100,6 @@ position: relative;
     filter: opacity(0.2);
     
 }
+
+.sezione3{
+    background-color: lightgray;}
