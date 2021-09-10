@@ -4,9 +4,67 @@
     padding: 0;
 }
 
+.debug{
+    font-family:'Open Sans', sans-serif;;
+}
 
 header{
     background-color:rgba(49, 97, 224, 1);
 height: 49px;
 width: 100vw;
+text-align: center;
+display: table-cell;
+vertical-align: bottom;
 }
+
+a{
+    text-decoration: none;
+    padding:23px;
+    color: white;
+}
+
+.accedi{
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 13px;
+}
+.sezione1{
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
+    height: 27rem;
+    color: whitesmoke;
+    /* position: static; */
+}
+}
+h2{
+    padding: 38px;
+}
+.centered{
+    /* text-align: center;
+    width: 70%;
+    margin:3rem auto;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    } */
+    text-align: center;
+    padding: 87px;
+}
+    
+    .download{
+        width: 70%;
+    margin:20px auto;
+text-align: center;
+font-weight: 600;
+}
+
+    .discord{ background-color: rgba(28, 27, 41, 1);
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 13px; 
+    margin-left: 10px;
+    }
