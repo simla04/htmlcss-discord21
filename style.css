@@ -7,6 +7,11 @@
 .debug{
     font-family:'Open Sans', sans-serif;;
 }
+clearfix::after{
+    display: table;
+    content: "";
+    clear: both;
+}
 
 header{
     background-color:rgba(49, 97, 224, 1);
@@ -37,7 +42,7 @@ a{
     color: whitesmoke;
     /* position: static; */
 }
-}
+
 h2{
     padding: 38px;
 }
@@ -68,3 +73,50 @@ font-weight: 600;
     font-size: 13px; 
     margin-left: 10px;
     }
+
+    .sezione2{
+        /* background-image: url(./img/jumbo.png);
+    background-size: cover;
+    height: 27rem;
+    color: whitesmoke;
+    position: static;
+    } */
+    height: 27rem;
+    width: 70%;
+    display: inline-block;
+    /* text-align: center; */
+    
+    /* width: 70%; */
+    /* margin: 10px auto;
+    text-align: center; 
+    diplay:block */
+}
+.img_rana{
+     width:50% ;
+    float:left;
+margin-left: 10px;
+position: relative;
+    left: 400px;
+    top: 52px;
+}
+/* 
+.left_text{
+    margin-left: 80px;
+    display:inline-block;
+    text-align:; */
+
+.left_text{
+    float: left;
+    position: relative;
+    left: 402px;
+    top: 87px
+}
+
+.left_text h3{
+    margin-bottom:1rem;
+    font-weight: bolder;
+}
+.wave{
+    filter: opacity(0.2);
+    
+}
